@@ -23,7 +23,12 @@ class Tickets {
      * @ORM\Column(type="int")
     
      */
-    private int $id_buyer;
+ public function GetIdBuyer():int
+ {
+    $id_buyer = $this->getIdBuyer();
+
+    return $id_buyer;
+ }
 
 
     /**
@@ -60,13 +65,5 @@ class Tickets {
         return $this;
     }
 
-    /**
-     * Get the value of id_buyer
-     *
-     * @return int
-     */
-    public function getIdBuyer(): int
-    {
-        return $this->id_buyer;
-    }
+  
 }
