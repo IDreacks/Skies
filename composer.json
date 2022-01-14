@@ -1,0 +1,15 @@
+{
+    "name": "stagiaire/skies",
+    "autoload": {
+        "psr-4": {
+            "Stagiaire\\Skies\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IDreacks",
+            "email": "m-jouan@hotmail.com"
+        }
+    ],
+    "require": {}
+}
